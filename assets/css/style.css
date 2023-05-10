@@ -213,13 +213,19 @@ body {
   width: 100vw;
   position: fixed;
 }
+.contenedor1{
+  border: solid red 1px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 #formC {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border: solid red 1px;
 }
 #enviar{
   margin-top: 20px;
@@ -245,13 +251,13 @@ body {
   cursor: text;
   background-color: transparent;
   border: none;
-  border-bottom: solid 0.5px rgba(255, 255, 255, 0.3);
+  border-bottom: solid 0.5px rgba(255, 255, 255, 0.4);
   font-size: 16px;
   text-align: center;
   padding: 5px 0;
 }
 .inp1 {
-  width: 90%;
+  width: 50%;
   height: 20px;
 }
 
@@ -266,7 +272,7 @@ body {
   align-items: center;
   gap: 5px;
   margin-bottom: 2%;
-  border: solid red 1px;
+
 }
 .div1 > p {
   opacity: 0.5;
