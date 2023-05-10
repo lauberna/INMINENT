@@ -112,7 +112,6 @@ body {
   background-attachment: fixed;
   height: 100vh;
   width: 100vw;
-  position: fixed;
 }
 .contenedor0 {
   height: 100%;
@@ -127,7 +126,6 @@ body {
 .imgCenter {
   height: 50%;
   width: 100%;
-
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -285,14 +283,14 @@ body {
   font-size: 25px;
 }
 
-.errForm1 {
+/* .errForm1 {
   color: red;
   font-size: 13px;
   position: absolute;
   bottom: 198px;
   opacity: 0px;
   transition: opacity 0.5s;
-} 
+}  */
 
 /* #section-3 {
   background-image: url(../images/DSC02305\ 1.jpg);

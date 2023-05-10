@@ -4,9 +4,9 @@ let inpMail = document.getElementById("inpMail");
 let inpTel = document.getElementById("inpTel");
 let inpMsj = document.getElementById("inpMsj");
 let send = document.getElementById("enviar");
-let err = document.getElementById("err1");
+/* let err = document.getElementById("err1"); */
 let form = document.getElementById("formC");
-err.style.opacity = "0";
+/* err.style.opacity = "0"; */
 
 const regexNombre = /^[a-zA-ZÀ-ÿ\s]{3,40}$/;
 const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -57,9 +57,9 @@ export default function validateForm() {
       }, 200);
       return consulta;
     } else {
-      err.style.opacity = 1;
+      /* err.style.opacity = 1; */
       setTimeout(() => {
-        err.style.opacity = 0;
+        /* err.style.opacity = 0; */
       }, 1000);
     }
   }
