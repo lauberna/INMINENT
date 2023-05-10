@@ -183,6 +183,8 @@ body {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
   position: fixed;
 }
 .pres {
@@ -214,20 +216,18 @@ body {
   position: fixed;
 }
 .contenedor1{
-  height: 100%;
+  height: 89%;
   gap: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: solid red 3px;
 }
 #formC {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 80px;
+  gap: 12px;
 }
 #enviar{
   margin-top: 20px;
@@ -243,7 +243,7 @@ body {
 }
 #label {
   font-size: 20px;
-  opacity: 0.8;
+  opacity: 1;
 }
 #formC > textarea{
   resize: none;
@@ -253,20 +253,19 @@ body {
   cursor: text;
   background-color: transparent;
   border: none;
-  border-bottom: solid 0.5px rgba(255, 255, 255, 0.4);
+  border-bottom: solid 0.5px rgba(255, 255, 255, 0.5);
   font-size: 16px;
   text-align: center;
   padding: 5px 0;
 }
 .inp1 {
-  width: 50%;
+  width: 65%;
   height: 20px;
 }
 
 .inp::placeholder {
   font-size: 14px;
 }
-
 .div1 {
   display: flex;
   justify-content: center;
