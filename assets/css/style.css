@@ -3,7 +3,6 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-
 }
 body {
   background-color: rgb(0, 0, 0);
@@ -89,7 +88,6 @@ body {
   z-index: 10;
 }
 
-
 .none {
   display: none;
 }
@@ -112,6 +110,7 @@ body {
   background-attachment: fixed;
   height: 100vh;
   width: 100vw;
+  position: fixed;
 }
 .contenedor0 {
   height: 100%;
@@ -130,14 +129,14 @@ body {
   justify-content: center;
   align-items: flex-end;
 }
-.btnCenter{
+.btnCenter {
   height: 50%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#booking{
+#booking {
   margin-bottom: 15%;
 }
 .button {
@@ -174,7 +173,6 @@ body {
   text-decoration: none;
 }
 
-
 #section-1 {
   background-image: url(../images/DSC02364\ 1.jpg);
   background-repeat: no-repeat;
@@ -184,10 +182,8 @@ body {
   height: 100vh;
   width: 100vw;
   position: fixed;
-
 }
 .pres {
-
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -204,7 +200,6 @@ body {
   font-size: 14px;
 }
 
-
 #section-2 {
   background-image: url(../images/image.jpg);
   background-repeat: no-repeat;
@@ -215,7 +210,7 @@ body {
   width: 100vw;
   position: fixed;
 }
-.contenedor1{
+.contenedor1 {
   height: 87%;
   gap: 20px;
   display: flex;
@@ -229,7 +224,7 @@ body {
   align-items: center;
   gap: 12px;
 }
-#enviar{
+#enviar {
   margin-top: 20px;
   cursor: pointer;
 }
@@ -245,10 +240,10 @@ body {
   font-size: 20px;
   opacity: 1;
 }
-#formC > textarea{
+#formC > textarea {
   resize: none;
 }
-.inp{
+.inp {
   margin-bottom: 5px;
   cursor: text;
   background-color: transparent;
@@ -273,7 +268,6 @@ body {
   align-items: center;
   gap: 5px;
   margin-bottom: 2%;
-
 }
 .div1 > p {
   opacity: 0.5;
