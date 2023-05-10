@@ -186,15 +186,17 @@ body {
   height: 100vh;
   width: 100vw;
   position: fixed;
+
 }
 .pres {
+
   font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 15px;
-  height: 100%;
+  height: 88%;
   width: 100%;
 }
 
@@ -216,7 +218,7 @@ body {
   position: fixed;
 }
 .contenedor1{
-  height: 89%;
+  height: 87%;
   gap: 20px;
   display: flex;
   flex-direction: column;
@@ -287,7 +289,7 @@ body {
   color: red;
   font-size: 13px;
   position: absolute;
-  bottom: 200px;
+  bottom: 198px;
   opacity: 0px;
   transition: opacity 0.5s;
 } 
