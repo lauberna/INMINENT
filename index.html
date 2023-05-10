@@ -74,6 +74,52 @@
             <h1>CONTACTANOS</h1>
             <p>inminentbooking@gmail.com</p>
           </div>
+          <form
+            method="post"
+            action="mailto:laureanoberna2002@gmail.com"
+            enctype="text/plain"
+            id="formC"
+          >
+            <label id="label" for="nombre">Nombre</label>
+            <input
+              class="inp1 inp"
+              id="inpName"
+              type="text"
+              placeholder="Ingrese su nombre aqui"
+              name="nombre"
+              required
+            />
+            <label id="label" for="mail">Mail</label>
+            <input
+              class="inp1 inp"
+              id="inpMail"
+              type="text"
+              placeholder="Ingrese su mail aqui"
+              name="mail"
+              required
+            />
+            <label id="label" for="telefono">Telefono</label>
+            <input
+              class="inp1 inp"
+              id="inpTel"
+              type="text"
+              placeholder="Ingrese su telefono aqui"
+              name="mail"
+              required
+            />
+            <label id="label" for="msj">Consulta</label>
+            <textarea
+              class="inp1 inp"
+              name="msj"
+              id="inpMsj"
+              cols="30"
+              rows="2"
+              placeholder="ingrese su consulta aqui"
+              required
+            ></textarea>
+            <p class="errForm1" id="err1">Complete los datos correctamente</p>
+            <button type="submit" class="button" id="enviar">Enviar</button>
+          </form>
         </div>
       </section>
       <section id="section-3" style class="section none">

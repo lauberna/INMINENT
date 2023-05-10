@@ -73,6 +73,7 @@ body {
 }
 .navBtn {
   height: 18px;
+  position: fixed;
   transition: rotate 0.5s;
 }
 .navBtn:hover {
@@ -212,7 +213,7 @@ body {
   width: 100vw;
   position: fixed;
 }
-/* #formC {
+#formC {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -282,7 +283,7 @@ body {
   bottom: 200px;
   opacity: 0px;
   transition: opacity 0.5s;
-}  */
+} 
 
 /* #section-3 {
   background-image: url(../images/DSC02305\ 1.jpg);
