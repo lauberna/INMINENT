@@ -27,15 +27,15 @@ export default function navBar() {
 }
 
 let btn = document.getElementById('btn');
-let mod = document.getElementById('mod');
+
 let main = document.getElementById('main');
 let nCont = document.getElementById('navContainer');
 
 nCont.style.display = 'none';
-mod.style.display = 'none';
+
 
 btn.addEventListener('click', function () {
-  if (mod.style.opacity == 0.5) {
+  if (nCont.style.opacity != 0) {
     hide();
   } else {
     show();
@@ -43,11 +43,9 @@ btn.addEventListener('click', function () {
 });
 
 function hide() {
-  mod.style.opacity = 0;
   main.style.filter = 'blur(0px)';
   nCont.style.opacity = 0;
   btn.style.rotate = '-180deg';
-  mod.style.display = 'none';
   setTimeout(() => {
     nCont.style.display = 'none';
   }, 100);
@@ -55,11 +53,9 @@ function hide() {
 
 function show() {
   nCont.style.display = 'block';
-  mod.style.opacity = 0.5;
   main.style.filter = 'blur(30px)';
   btn.style.rotate = '270deg';
   nCont.style.opacity = 1;
-  mod.style.display = 'block';
 }
+export {hide}
 
-export { hide };

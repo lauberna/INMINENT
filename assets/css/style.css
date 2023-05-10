@@ -17,7 +17,6 @@ body, html {
   opacity: 0;
   z-index: 10;
   transition: opacity 0.5s;
-
 }
 
 #navbar {
@@ -77,26 +76,16 @@ body, html {
   height: 20px;
   transition: rotate 0.5s;
 }
-/* .navBtn:hover {
+.navBtn:hover {
   cursor: pointer;
 }
-#mod {
-  background-color: rgb(0, 0, 0);
-  position: fixed;
-  opacity: 0;
-  width: 100%;
-  height: 100%;
-  transition: opacity 0.5s;
-  z-index: 10;
-} */
-
 .none {
   display: none;
 }
-/* #main {
+#main {
   transition: filter 0.8s;
 }
-*/
+
 #redesCont {
   position: absolute;
   bottom: 10px;
@@ -104,41 +93,26 @@ body, html {
 } 
 
 #section-0 {
-/*   background-image: url(../images/DSC02320\ 1.jpg); */
+  background-image: url(../images/DSC02320\ 1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   position: fixed;
-  background-color: #48004b00;
+  height: 100%;
+  width: 100%;
 }
-/*
 .contenedor0 {
   height: 100%;
   width: 100%;
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  filter: blur(0px);
-  transition: filter 0.5s;
-}
-.imgCenter {
-  height: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-.btnCenter {
-  height: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 #booking {
-  margin-bottom: 15%;
+  position: fixed;
+  bottom: 22%;
 }
 .button {
   display: inline-block;
@@ -160,20 +134,14 @@ body, html {
 .button:active {
   background-color: #7d0000;
 }
-.exit {
-  position: absolute;
-  top: -50px;
-  cursor: pointer;
-}
-
 #logoMain {
-  height: 40%;
+  height: 23%;
 }
 .youtube {
   cursor: pointer;
   text-decoration: none;
 }
-
+/*
 #section-1 {
   background-image: url(../images/DSC02364\ 1.jpg);
   background-repeat: no-repeat;
