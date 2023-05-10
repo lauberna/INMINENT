@@ -211,6 +211,7 @@ body {
   height: 100vh;
   width: 100vw;
   position: fixed;
+}
 /* #formC {
   display: flex;
   flex-direction: column;
@@ -281,7 +282,7 @@ body {
   bottom: 200px;
   opacity: 0px;
   transition: opacity 0.5s;
-} */
+}  */
 
 /* #section-3 {
   background-image: url(../images/DSC02305\ 1.jpg);
@@ -300,5 +301,4 @@ body {
   position: relative;
   top: 200px;
   bottom: 200px;
-}
- */
+} */
