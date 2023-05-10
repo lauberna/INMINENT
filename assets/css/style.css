@@ -214,8 +214,8 @@ body {
   position: fixed;
 }
 .contenedor1{
-  border: solid red 1px;
   height: 100%;
+  gap: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -226,6 +226,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin-bottom: 80px;
 }
 #enviar{
   margin-top: 20px;
