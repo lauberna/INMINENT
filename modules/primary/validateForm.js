@@ -4,9 +4,14 @@ let inpMail = document.getElementById("inpMail");
 let inpTel = document.getElementById("inpTel");
 let inpMsj = document.getElementById("inpMsj");
 let send = document.getElementById("enviar");
-/* let err = document.getElementById("err1"); */
 let form = document.getElementById("formC");
-/* err.style.opacity = "0"; */
+let labels1 = document.getElementById("label1")
+let labels2 = document.getElementById("label2")
+let labels3 = document.getElementById("label3")
+let labels4 = document.getElementById("label4")
+
+
+
 
 const regexNombre = /^[a-zA-ZÀ-ÿ\s]{3,40}$/;
 const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -57,10 +62,29 @@ export default function validateForm() {
       }, 200);
       return consulta;
     } else {
-      /* err.style.opacity = 1; */
+      
+      if(inpName.classList.contains("err")){
+        labels1.classList.add("labelErr")
+        labels1.style.color = "red"
+      }
+      if(inpMail.classList.contains("err")){
+        labels2.classList.add("labelErr")
+        labels2.style.color = "red"
+      }
+      if(inpTel.classList.contains("err")){
+        labels3.classList.add("labelErr")
+        labels3.style.color = "red"
+      }
+      if(inpMsj.classList.contains("err")){
+        labels4.classList.add("labelErr")
+        labels4.style.color = "red"
+      }
       setTimeout(() => {
-        /* err.style.opacity = 0; */
-      }, 1000);
+        labels1.style.color = "white"
+        labels2.style.color = "white"
+        labels3.style.color = "white"
+        labels4.style.color = "white"
+      }, 400);
     }
   }
 

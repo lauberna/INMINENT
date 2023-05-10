@@ -2,7 +2,7 @@ import { createElements } from '../socialMedia.js';
 import carousel from '../carousel.js';
 import { hide } from './navBar.js';
 function sections() {
-  showSection('section-0');
+  showSection('section-2');
   createElements('sectionRed');
 /*   carousel(); */
 }
