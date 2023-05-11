@@ -4,7 +4,8 @@
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
-body, html {
+body,
+html {
   background-color: rgb(0, 0, 0);
   height: 100%;
 }
@@ -54,7 +55,7 @@ body, html {
 }
 .red {
   width: 20px;
-  opacity: .8;
+  opacity: 0.8;
   transition: transform 0.2s;
 }
 .red:hover {
@@ -71,7 +72,7 @@ body, html {
   justify-content: center;
   align-items: center;
   z-index: 999;
-} 
+}
 .navBtn {
   height: 20px;
   transition: rotate 0.5s;
@@ -90,7 +91,7 @@ body, html {
   position: absolute;
   bottom: 10px;
   gap: 25px;
-} 
+}
 
 #section-0 {
   background-image: url(../images/DSC02320\ 1.jpg);
@@ -109,10 +110,6 @@ body, html {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-#booking {
-  position: fixed;
-  bottom: 22%;
 }
 .button {
   display: inline-block;
@@ -133,6 +130,17 @@ body, html {
 }
 .button:active {
   background-color: #7d0000;
+}
+#booking{
+  position: absolute;
+  bottom: 22%;
+}
+.btnCenter {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #logoMain {
   height: 23%;
@@ -168,30 +176,43 @@ body, html {
   text-align: center;
   font-size: 14px;
 }
-
+*/
 #section-2 {
-  background-image: url(../images/image.jpg);
+/*   background-image: url(../images/image.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  height: 100vh;
-  width: 100vw;
   position: fixed;
+  height: 100%;
+  width: 100%;
 }
 .contenedor1 {
-  height: 87%;
+  height: 100%;
+  width: 100%;
   gap: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 #formC {
+  border: solid red 1px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 12px;
+  width: 80%;
+  margin-bottom: 30px;
+}
+.div1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 2%;
 }
 #enviar {
   margin-top: 20px;
@@ -226,23 +247,13 @@ body, html {
   text-align: center;
   padding: 5px 0;
   text-decoration: none;
-
-}
-.inp1 {
-  width: 65%;
   height: 20px;
+  width: 70%;
 }
+/*
 
 .inp::placeholder {
   font-size: 14px;
-}
-.div1 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  margin-bottom: 2%;
 }
 .div1 > p {
   opacity: 0.5;
